@@ -1,4 +1,4 @@
-FROM ghcr.io/cuit9622/spring-cloud-dev:latest
+FROM ghcr.io/cuit9622/spring-cloud-dev:dev
 WORKDIR /root
 CMD ["bash","/root/start.sh"]
 EXPOSE 3306
